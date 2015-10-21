@@ -4,33 +4,38 @@
 /* line 4, ../sass/print.scss */
 body {
   max-width: 1024px;
+  width: 100%;
   margin: auto;
 }
 
-/* line 9, ../sass/print.scss */
+/* line 11, ../sass/print.scss */
 header .m-logo {
   height: 55px;
   width: auto;
   padding: 20px 0 0;
 }
-/* line 14, ../sass/print.scss */
+/* line 16, ../sass/print.scss */
 header ul {
   text-align: right;
   font-family: 'calibri', serif;
 }
-/* line 17, ../sass/print.scss */
+/* line 19, ../sass/print.scss */
 header ul li {
   text-transform: uppercase;
   font-size: 12px;
   color: #686868;
   display: inline-block;
 }
-/* line 23, ../sass/print.scss */
+/* line 24, ../sass/print.scss */
+header ul li:hover {
+  cursor: pointer;
+}
+/* line 28, ../sass/print.scss */
 header ul > li:not(:last-child) {
   border-right: 1px solid #686868;
   padding: 0 8px;
 }
-/* line 28, ../sass/print.scss */
+/* line 33, ../sass/print.scss */
 header .search-bar {
   float: right;
   position: relative;
@@ -39,18 +44,18 @@ header .search-bar {
   border: 1px solid #DDDDDD;
   border-radius: 24px;
 }
-/* line 35, ../sass/print.scss */
+/* line 40, ../sass/print.scss */
 header .search-bar input:focus {
   outline: 0;
 }
-/* line 38, ../sass/print.scss */
+/* line 43, ../sass/print.scss */
 header .search-bar .text {
   border: none;
   border-style: none;
   border-color: transparent;
   padding: 4px;
 }
-/* line 44, ../sass/print.scss */
+/* line 49, ../sass/print.scss */
 header .search-bar .button {
   background-image: url("../images/search_icon.png");
   background-color: #fff;
@@ -60,19 +65,19 @@ header .search-bar .button {
   left: -4px;
   top: 3px;
 }
-/* line 52, ../sass/print.scss */
+/* line 57, ../sass/print.scss */
 header .search-bar .button:hover {
   cursor: pointer;
 }
 
-/* line 60, ../sass/print.scss */
+/* line 65, ../sass/print.scss */
 nav ul {
   text-align: center;
   font-family: 'calibri', serif;
   width: 100%;
   background-image: linear-gradient(180deg, #717171, #2c2c2c);
 }
-/* line 65, ../sass/print.scss */
+/* line 70, ../sass/print.scss */
 nav ul li {
   padding: 10px 17px;
   text-transform: uppercase;
@@ -82,30 +87,30 @@ nav ul li {
   display: inline-block;
   border-right: 1px solid #fff;
 }
-/* line 73, ../sass/print.scss */
+/* line 78, ../sass/print.scss */
 nav ul li:hover {
   background: #202020;
   cursor: pointer;
 }
-/* line 77, ../sass/print.scss */
+/* line 82, ../sass/print.scss */
 nav ul li .dropdown {
   display: none;
   z-index: 999;
   background: #323232;
 }
-/* line 81, ../sass/print.scss */
+/* line 86, ../sass/print.scss */
 nav ul li .dropdown li {
   display: block;
 }
 
-/* line 90, ../sass/print.scss */
+/* line 95, ../sass/print.scss */
 main .roller {
   position: relative;
   width: 1024px;
   height: 435px;
   margin-top: 6px;
 }
-/* line 95, ../sass/print.scss */
+/* line 100, ../sass/print.scss */
 main .roller .content {
   background: linear-gradient(135deg, #077ff8, #0f9fff);
   width: 386px;
@@ -114,7 +119,7 @@ main .roller .content {
   color: #fefefe;
   line-height: 1.4;
 }
-/* line 102, ../sass/print.scss */
+/* line 107, ../sass/print.scss */
 main .roller .content h2 {
   font-size: 33px;
   font-family: 'Roboto Slab', serif;
@@ -122,23 +127,23 @@ main .roller .content h2 {
   text-shadow: 2px 2px #555;
   padding: 50px 0px 13px 12px;
 }
-/* line 109, ../sass/print.scss */
+/* line 114, ../sass/print.scss */
 main .roller .content p {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   padding: 5px 12px;
 }
-/* line 114, ../sass/print.scss */
+/* line 119, ../sass/print.scss */
 main .roller .content a {
   color: #fff;
   padding: 15px 12px;
 }
-/* line 118, ../sass/print.scss */
+/* line 123, ../sass/print.scss */
 main .roller .content .banner {
   display: block;
   padding: 15px 12px;
 }
-/* line 123, ../sass/print.scss */
+/* line 128, ../sass/print.scss */
 main .roller .image-slot {
   width: 636px;
   height: 423px;
@@ -146,17 +151,17 @@ main .roller .image-slot {
   display: inline-block;
   position: relative;
 }
-/* line 129, ../sass/print.scss */
+/* line 134, ../sass/print.scss */
 main .roller .image-slot img {
   display: inline-block;
   width: 100%;
   height: auto;
 }
-/* line 136, ../sass/print.scss */
+/* line 141, ../sass/print.scss */
 main .section-1 {
   height: 520px;
 }
-/* line 138, ../sass/print.scss */
+/* line 143, ../sass/print.scss */
 main .section-1 .grey-bar {
   position: relative;
   top: -28px;
@@ -166,7 +171,7 @@ main .section-1 .grey-bar {
   float: right;
   width: 67%;
 }
-/* line 147, ../sass/print.scss */
+/* line 152, ../sass/print.scss */
 main .section-1 div {
   position: relative;
   display: inline-block;
@@ -174,7 +179,7 @@ main .section-1 div {
   margin-right: 5%;
   float: left;
 }
-/* line 153, ../sass/print.scss */
+/* line 158, ../sass/print.scss */
 main .section-1 div h2 {
   font-family: calibri;
   font-weight: bold;
@@ -182,24 +187,24 @@ main .section-1 div h2 {
   font-size: 27px;
   padding: 10px 0px;
 }
-/* line 161, ../sass/print.scss */
+/* line 166, ../sass/print.scss */
 main .section-1 div ul li {
   line-height: 1.4;
   padding-top: 15px;
 }
-/* line 164, ../sass/print.scss */
+/* line 169, ../sass/print.scss */
 main .section-1 div ul li img {
   border-radius: 3px;
   width: 100%;
   height: auto;
 }
-/* line 169, ../sass/print.scss */
+/* line 174, ../sass/print.scss */
 main .section-1 div ul li .small-icon {
   display: inline;
   width: 15px;
   height: auto;
 }
-/* line 174, ../sass/print.scss */
+/* line 179, ../sass/print.scss */
 main .section-1 div ul li .date {
   font-family: georgia;
   margin-left: 20px;
@@ -207,57 +212,57 @@ main .section-1 div ul li .date {
   font-size: 14px;
   color: #888;
 }
-/* line 181, ../sass/print.scss */
+/* line 186, ../sass/print.scss */
 main .section-1 div ul li p {
   font-size: 15px;
   font-family: calibri;
   font-style: italic;
   color: #555;
 }
-/* line 188, ../sass/print.scss */
+/* line 193, ../sass/print.scss */
 main .section-1 div ul > li:nth-child(2) {
   padding-bottom: 10px;
   border-bottom: 1px solid #888;
 }
-/* line 194, ../sass/print.scss */
+/* line 199, ../sass/print.scss */
 main .section-1 .features {
   margin: 0px;
 }
-/* line 197, ../sass/print.scss */
+/* line 202, ../sass/print.scss */
 main .section-1 .viewAll {
   text-align: right;
 }
-/* line 199, ../sass/print.scss */
+/* line 204, ../sass/print.scss */
 main .section-1 .viewAll img {
   display: inline;
   width: 15px;
   height: auto;
 }
-/* line 206, ../sass/print.scss */
+/* line 211, ../sass/print.scss */
 main .section-2 {
   padding-top: 15px;
   width: 100%;
   height: 280px;
 }
-/* line 211, ../sass/print.scss */
+/* line 216, ../sass/print.scss */
 main .section-2 .alert h2 {
   background-image: url("../images/alert_ico.png");
   background-repeat: no-repeat;
   background-position: 8px 13px;
 }
-/* line 218, ../sass/print.scss */
+/* line 223, ../sass/print.scss */
 main .section-2 .tv h2 {
   background-image: url("../images/testimonials_ico.png");
   background-repeat: no-repeat;
   background-position: 8px 13px;
 }
-/* line 225, ../sass/print.scss */
+/* line 230, ../sass/print.scss */
 main .section-2 .learn h2 {
   background-image: url("../images/learnworkshop_ico.png");
   background-repeat: no-repeat;
   background-position: 8px 13px;
 }
-/* line 231, ../sass/print.scss */
+/* line 236, ../sass/print.scss */
 main .section-2 > div {
   background-color: #0F9FFF;
   position: relative;
@@ -267,30 +272,30 @@ main .section-2 > div {
   margin-right: 18px;
   float: left;
 }
-/* line 239, ../sass/print.scss */
+/* line 244, ../sass/print.scss */
 main .section-2 > div h2 {
   font-family: calibri;
   color: #fff;
   font-size: 27px;
   padding: 14px 39px;
 }
-/* line 245, ../sass/print.scss */
+/* line 250, ../sass/print.scss */
 main .section-2 > div ul {
   width: 315px;
   margin: auto;
 }
-/* line 248, ../sass/print.scss */
+/* line 253, ../sass/print.scss */
 main .section-2 > div ul li {
   background-color: #0096EA;
   margin: 10px 5px;
   padding: 5px 1px;
   border-radius: 5px;
 }
-/* line 253, ../sass/print.scss */
+/* line 258, ../sass/print.scss */
 main .section-2 > div ul li .in-content {
   display: inline-block;
 }
-/* line 255, ../sass/print.scss */
+/* line 260, ../sass/print.scss */
 main .section-2 > div ul li .in-content h3 {
   font-size: 14px;
   font-family: georgia;
@@ -300,25 +305,71 @@ main .section-2 > div ul li .in-content h3 {
   padding-left: 95px;
   padding-bottom: 10px;
 }
-/* line 264, ../sass/print.scss */
+/* line 269, ../sass/print.scss */
 main .section-2 > div ul li .in-content img {
   width: 83px;
   height: 83px;
   float: left;
 }
-/* line 269, ../sass/print.scss */
+/* line 274, ../sass/print.scss */
 main .section-2 > div ul li .in-content p {
   font-family: Helvetica;
   font-size: 12px;
   padding-left: 95px;
   color: #fff;
 }
-/* line 279, ../sass/print.scss */
+/* line 284, ../sass/print.scss */
 main .section-2 > div:last-child {
   margin-right: 0px;
 }
+/* line 288, ../sass/print.scss */
+main .section-3 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 45px;
+  color: #fff;
+}
+/* line 293, ../sass/print.scss */
+main .section-3 .students, main .section-3 .pub, main .section-3 .media {
+  height: 123px;
+}
+/* line 295, ../sass/print.scss */
+main .section-3 .students img, main .section-3 .pub img, main .section-3 .media img {
+  float: right;
+  position: relative;
+  top: -50px;
+  right: 11px;
+}
+/* line 301, ../sass/print.scss */
+main .section-3 .students h2, main .section-3 .pub h2, main .section-3 .media h2 {
+  font-family: calibri;
+  font-weight: bold;
+  font-size: 36px;
+  padding: 10px 0px 0px 10px;
+  height: 101px;
+  width: 323px;
+  margin-right: 12px;
+  border-radius: 5px;
+}
+/* line 312, ../sass/print.scss */
+main .section-3 .students h2 {
+  background-color: #FF9500;
+}
+/* line 316, ../sass/print.scss */
+main .section-3 .pub h2 {
+  background-color: #EE4400;
+}
+/* line 319, ../sass/print.scss */
+main .section-3 .pub img {
+  width: 137px;
+  top: -28px;
+}
+/* line 325, ../sass/print.scss */
+main .section-3 .media h2 {
+  background-color: #00C0F0;
+}
 
-/* line 286, ../sass/print.scss */
+/* line 334, ../sass/print.scss */
 footer {
   width: 1024px;
   height: 252px;
@@ -331,14 +382,14 @@ footer {
   right: 0;
   left: 0;
 }
-/* line 297, ../sass/print.scss */
+/* line 345, ../sass/print.scss */
 footer h3 {
   font-family: calibri;
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 20px;
 }
-/* line 303, ../sass/print.scss */
+/* line 351, ../sass/print.scss */
 footer > ul {
   width: 100%;
   height: 248px;
@@ -346,7 +397,7 @@ footer > ul {
   display: flex;
   flex-direction: row;
 }
-/* line 309, ../sass/print.scss */
+/* line 357, ../sass/print.scss */
 footer > ul > li {
   max-width: 24%;
   padding-right: 40px;
@@ -354,37 +405,37 @@ footer > ul > li {
   font-style: italic;
   font-size: 15px;
 }
-/* line 315, ../sass/print.scss */
+/* line 363, ../sass/print.scss */
 footer > ul > li b {
   font-weight: bold;
 }
-/* line 318, ../sass/print.scss */
+/* line 366, ../sass/print.scss */
 footer > ul > li a {
   text-decoration: none;
   color: #CE7E32;
 }
-/* line 322, ../sass/print.scss */
+/* line 370, ../sass/print.scss */
 footer > ul > li ul {
   list-style: disc;
 }
-/* line 327, ../sass/print.scss */
+/* line 375, ../sass/print.scss */
 footer .cc {
   padding: 22px 0px;
   background-color: #161616;
 }
-/* line 330, ../sass/print.scss */
+/* line 378, ../sass/print.scss */
 footer .cc ul {
   display: flex;
   flex-direction: row;
   float: right;
 }
-/* line 334, ../sass/print.scss */
+/* line 382, ../sass/print.scss */
 footer .cc ul li {
   font-family: calibri;
   padding: 0px 10px;
   font-size: 13px;
 }
-/* line 340, ../sass/print.scss */
+/* line 388, ../sass/print.scss */
 footer .cc p {
   font-size: 13px;
 }
