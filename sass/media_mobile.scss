@@ -1,0 +1,44 @@
+@media (max-width: 725px) {
+    header {
+        .m-logo {
+            height: 41px;
+            width: auto;
+            padding: 11px 0 0;
+        }
+        ul {
+            display: none;
+        }
+        .search-bar {
+            top: 13px;;
+            border: none;
+            input[type=text] {
+                display: none;
+            }
+        }
+    }
+    nav {
+        display: none;
+    }
+    main {
+        .roller {
+            flex-direction: column;
+            .content {
+                width: 100%;
+            }
+            .image-slot {
+                width: 100%;
+            }
+        }
+        .section-1 {
+            flex-direction: column;
+            div {
+                width: 100%;
+                ul {
+                    & > li:last-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
