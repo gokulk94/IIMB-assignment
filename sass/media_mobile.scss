@@ -1,4 +1,4 @@
-@media (max-width: 725px) {
+@media (max-width: 725px) and (min-width: 360px) {
     header {
         .m-logo {
             height: 41px;
@@ -24,20 +24,118 @@
             flex-direction: column;
             .content {
                 width: 100%;
+                height: 100%;
             }
             .image-slot {
                 width: 100%;
+                .roller-slot {
+                    width: 100%;
+                    display: block;
+                }
             }
+        }
+        .about {
+            width: 100%;
+        }
+        aside {
+            display: none;
         }
         .section-1 {
             flex-direction: column;
+            height: 100%;
+            .grey-bar {
+                width: 84%;
+                @media (max-width: 650px) {
+                    width: 70%;
+                }
+            }
             div {
                 width: 100%;
                 ul {
-                    & > li:last-child {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    li {
+                        width: 27%;
+                        .section-1-img {
+                            width: 120px;
+                            height: auto;
+                        }
+                    }
+                    li:nth-child(2) {
+                        width: 100%;
+                        border: none;
+                        padding-left: 20px;
+                    }
+                    & > li:nth-child(3) {
                         display: none;
                     }
                 }
+            }
+        }
+        .section-2 {
+            flex-direction: column;
+            height: 100%;
+            & > div {
+                width: 100%;
+                margin: 0px;
+                margin-bottom: 20px;
+                ul {
+                    li {
+                        box-shadow: inset 0px 0px 44px -10px rgba(0,0,0,0.1);
+                    }
+                    li:last-child {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .section-3 {
+            flex-direction: column;
+            height: 100%;
+            padding-top: 27px;
+            .students, .pub, .media {
+                width: 97%;
+                h2 {
+                    box-shadow: inset 0px 0px 44px -10px rgba(0,0,0,0.5);
+                    width: 100%;
+                    height: 75px;
+                    font-size: 36px;
+                    padding: 18px 0 0 16px;
+                }
+                img {
+                    width: 110px;
+                    top: -39px;
+                }
+            }
+        }
+    }
+    footer {
+        height: auto;
+        & > ul {
+            height: auto;
+            flex-wrap: wrap;
+            & > li {
+                padding-right: 0px;
+                margin-right: 40px;
+                margin-bottom: 25px;
+            }
+            & > li:first-child {
+                width: 53%;
+                border-right: 1px solid #fff;
+            }
+            & > li:nth-child(3) {
+                width: 33%;
+                border-right: 1px solid #fff;
+            }
+            & > li:nth-child(4) {
+                width: 50%;
+            }
+        }
+        .cc {
+            text-align: center;
+            ul {
+                clear: both;
             }
         }
     }

@@ -1,4 +1,4 @@
-@media (max-width: 725px) {
+@media (max-width: 725px) and (min-width: 360px) {
   /* line 3, ../sass/media_mobile.scss */
   header .m-logo {
     height: 41px;
@@ -31,21 +31,147 @@
   /* line 25, ../sass/media_mobile.scss */
   main .roller .content {
     width: 100%;
+    height: 100%;
   }
-  /* line 28, ../sass/media_mobile.scss */
+  /* line 29, ../sass/media_mobile.scss */
   main .roller .image-slot {
     width: 100%;
   }
-  /* line 32, ../sass/media_mobile.scss */
+  /* line 31, ../sass/media_mobile.scss */
+  main .roller .image-slot .roller-slot {
+    width: 100%;
+    display: block;
+  }
+  /* line 37, ../sass/media_mobile.scss */
+  main .about {
+    width: 100%;
+  }
+  /* line 40, ../sass/media_mobile.scss */
+  main aside {
+    display: none;
+  }
+  /* line 43, ../sass/media_mobile.scss */
   main .section-1 {
     flex-direction: column;
+    height: 100%;
   }
-  /* line 34, ../sass/media_mobile.scss */
+  /* line 46, ../sass/media_mobile.scss */
+  main .section-1 .grey-bar {
+    width: 84%;
+  }
+  /* line 52, ../sass/media_mobile.scss */
   main .section-1 div {
     width: 100%;
   }
-  /* line 37, ../sass/media_mobile.scss */
-  main .section-1 div ul > li:last-child {
+  /* line 54, ../sass/media_mobile.scss */
+  main .section-1 div ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  /* line 58, ../sass/media_mobile.scss */
+  main .section-1 div ul li {
+    width: 27%;
+  }
+  /* line 60, ../sass/media_mobile.scss */
+  main .section-1 div ul li .section-1-img {
+    width: 120px;
+    height: auto;
+  }
+  /* line 65, ../sass/media_mobile.scss */
+  main .section-1 div ul li:nth-child(2) {
+    width: 100%;
+    border: none;
+    padding-left: 20px;
+  }
+  /* line 70, ../sass/media_mobile.scss */
+  main .section-1 div ul > li:nth-child(3) {
     display: none;
+  }
+  /* line 76, ../sass/media_mobile.scss */
+  main .section-2 {
+    flex-direction: column;
+    height: 100%;
+  }
+  /* line 79, ../sass/media_mobile.scss */
+  main .section-2 > div {
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  /* line 84, ../sass/media_mobile.scss */
+  main .section-2 > div ul li {
+    box-shadow: inset 0px 0px 44px -10px rgba(0, 0, 0, 0.1);
+  }
+  /* line 87, ../sass/media_mobile.scss */
+  main .section-2 > div ul li:last-child {
+    display: none;
+  }
+  /* line 93, ../sass/media_mobile.scss */
+  main .section-3 {
+    flex-direction: column;
+    height: 100%;
+    padding-top: 27px;
+  }
+  /* line 97, ../sass/media_mobile.scss */
+  main .section-3 .students, main .section-3 .pub, main .section-3 .media {
+    width: 97%;
+  }
+  /* line 99, ../sass/media_mobile.scss */
+  main .section-3 .students h2, main .section-3 .pub h2, main .section-3 .media h2 {
+    box-shadow: inset 0px 0px 44px -10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 75px;
+    font-size: 36px;
+    padding: 18px 0 0 16px;
+  }
+  /* line 106, ../sass/media_mobile.scss */
+  main .section-3 .students img, main .section-3 .pub img, main .section-3 .media img {
+    width: 110px;
+    top: -39px;
+  }
+
+  /* line 113, ../sass/media_mobile.scss */
+  footer {
+    height: auto;
+  }
+  /* line 115, ../sass/media_mobile.scss */
+  footer > ul {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  /* line 118, ../sass/media_mobile.scss */
+  footer > ul > li {
+    padding-right: 0px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+  }
+  /* line 123, ../sass/media_mobile.scss */
+  footer > ul > li:first-child {
+    width: 53%;
+    border-right: 1px solid #fff;
+  }
+  /* line 127, ../sass/media_mobile.scss */
+  footer > ul > li:nth-child(3) {
+    width: 33%;
+    border-right: 1px solid #fff;
+  }
+  /* line 131, ../sass/media_mobile.scss */
+  footer > ul > li:nth-child(4) {
+    width: 50%;
+  }
+  /* line 135, ../sass/media_mobile.scss */
+  footer .cc {
+    text-align: center;
+  }
+  /* line 137, ../sass/media_mobile.scss */
+  footer .cc ul {
+    clear: both;
+  }
+}
+@media (max-width: 725px) and (min-width: 360px) and (max-width: 650px) {
+  /* line 46, ../sass/media_mobile.scss */
+  main .section-1 .grey-bar {
+    width: 70%;
   }
 }

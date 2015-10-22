@@ -33,17 +33,17 @@
   /* line 27, ../sass/media_tab.scss */
   main .roller .content {
     width: 35%;
-    height: auto;
   }
-  /* line 31, ../sass/media_tab.scss */
+  /* line 30, ../sass/media_tab.scss */
   main .roller .image-slot {
     width: 65%;
-    height: 100%;
+    background-image: url("../images/DSC_0266.jpeg");
+    background-size: 171%;
+    background-position: center;
   }
-  /* line 34, ../sass/media_tab.scss */
+  /* line 35, ../sass/media_tab.scss */
   main .roller .image-slot .roller-slot {
-    width: 100%;
-    height: inherit;
+    display: none;
   }
   /* line 42, ../sass/media_tab.scss */
   main .section-2 > div h2 {

@@ -4,6 +4,7 @@
 body {
     width: 1024px;
     margin: auto;
+    overflow-x: hidden;
 }
 
 header {
@@ -72,10 +73,13 @@ nav {
             padding: 10px 17px;
             text-transform: uppercase;
             font-size: 16px;
-            margin-right: -4px;
             color: #fff;
             // display: inline-block;
             border-right: 1px solid #fff;
+            a {
+                text-decoration: none;
+                color: #fff
+            }
             &:hover {
                 background: #202020;
                 cursor: pointer;
@@ -139,6 +143,44 @@ main {
             }
         }
     }
+    .about {
+        font-family: calibri;
+        width: 70%;
+        line-height: 1.4;
+        color: #5F5F5F;
+        padding-top: 20px;
+        h2 {
+            font-family: 'Roboto Slab', serif;
+            font-size: 34px;
+            color: #FF4450;
+        }
+        p {
+            padding-bottom: 20px;
+        }
+    }
+    aside {
+        font-family: calibri;
+        width: 25%;
+        float: right;
+        font-size: 21px;
+        padding-top: 20px;
+        color: #0A89FA;
+        ul {
+            li {
+                padding: 15px 15px;
+                border-top: 1px solid #D5CECA;
+            }
+            li:last-child {
+                border-bottom: 1px solid #D5CECA;
+            }
+            .active {
+                color: #F1715E;
+            }
+            li:hover {
+                cursor: pointer;
+            }
+        }
+    }
     .section-1 {
         height: 520px;
         display: flex;
@@ -197,6 +239,13 @@ main {
                     padding-bottom: 10px;
                     border-bottom: 1px solid #888;
                 }
+                & > li:last-child {
+                    text-align: right;
+                    font-family: calibri;
+                    font-style: italic;
+                    font-size: 14px;
+                    color: #ff6c00;
+                }
             }
         }
         .features {
@@ -245,7 +294,7 @@ main {
             // display: inline-block;
             width: 329px;
             margin-right: 18px;
-            float: left;
+            // float: left;
             h2 {
                 font-family: calibri;
                 color: #fff;
@@ -259,6 +308,7 @@ main {
                     margin: 10px 5px;
                     padding: 5px 1px;
                     border-radius: 5px;
+                    box-shadow: inset 0px 0px 24px 0px rgba(0,0,0,0.2);
                     .in-content {
                         display: inline-block;
                         h3 {
@@ -287,6 +337,9 @@ main {
         }
         & > div:last-child {
             margin-right: 0px;
+        }
+        & > div:nth-of-type(2) {
+            background-color: #0576F6;
         }
     }
     .section-3 {
@@ -343,29 +396,31 @@ footer {
     background-color: #262626;
     color: #fff;
     padding: 30px 0px;
+    padding-bottom: 0px;
     line-height: 1.4;
     position: relative;
     bottom: 0;
     right: 0;
     left: 0;
-    h3 {
-        font-family: calibri;
-        font-weight: bold;
-        font-size: 18px;
-        margin-bottom: 20px;
-    }
     & > ul {
-        width: 100%;
-        height: 248px;
+        width: 98%;
+        height: 100%;
         padding-left: 20px;
         display: flex;
         flex-direction: row;
         & > li {
-            max-width: 24%;
+            width: 24%;
             padding-right: 40px;
             font-family: calibri;
             font-style: italic;
             font-size: 15px;
+            h3 {
+                font-family: calibri;
+                font-weight: bold;
+                font-style: normal;
+                font-size: 18px;
+                margin-bottom: 20px;
+            }
             b {
                 font-weight: bold;
             }
@@ -377,8 +432,20 @@ footer {
                 list-style: disc;
             }
         }
+        & > li:last-child {
+            padding-right: 0px;;
+        }
+        & > li:nth-child(3) {
+            font-style: normal;
+        }
+        & > li:nth-child(4) {
+            b {
+                font-style: normal;
+            }
+        }
     }
     .cc {
+        position: relative;
         padding: 22px 0px;
         background-color: #161616;
         ul {

@@ -26,14 +26,14 @@
             height: auto;
             .content {
                 width: 35%;
-                height: auto;
             }
             .image-slot {
                 width: 65%;
-                height: 100%;
+                background-image: url('../images/DSC_0266.jpeg');
+                background-size: 171%;
+                background-position: center;
                 .roller-slot {
-                    width: 100%;
-                    height: inherit;
+                    display: none;
                 }
             }
         }
