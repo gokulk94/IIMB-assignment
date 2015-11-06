@@ -1,0 +1,56 @@
+@keyframes slide {
+  /* line 2, ../sass/slider.scss */
+  0% {
+    left: 0%;
+  }
+
+  /* line 3, ../sass/slider.scss */
+  10% {
+    left: 10%;
+  }
+
+  /* line 4, ../sass/slider.scss */
+  20% {
+    left: 20%;
+  }
+
+  /* line 5, ../sass/slider.scss */
+  30% {
+    left: 30%;
+  }
+
+  /* line 6, ../sass/slider.scss */
+  40% {
+    left: 40%;
+  }
+
+  /* line 7, ../sass/slider.scss */
+  50% {
+    left: 50%;
+  }
+
+  /* line 8, ../sass/slider.scss */
+  60% {
+    left: 60%;
+  }
+
+  /* line 9, ../sass/slider.scss */
+  70% {
+    left: 70%;
+  }
+
+  /* line 10, ../sass/slider.scss */
+  80% {
+    left: 80%;
+  }
+
+  /* line 11, ../sass/slider.scss */
+  90% {
+    left: 90%;
+  }
+
+  /* line 12, ../sass/slider.scss */
+  100% {
+    left: 100%;
+  }
+}
