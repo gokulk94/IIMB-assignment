@@ -203,6 +203,16 @@ main {
                     height: 423px;
                 }
             }
+            #prev {
+                background-image: url('../images/banner_navigation.png');
+                background-position: -2px 8px;
+                background-repeat: no-repeat;
+            }
+            #next {
+                background-image: url('../images/banner_navigation.png');
+                background-position: -33px 8px;
+                background-repeat: no-repeat;
+            }
         }
         .about {
             font-family: calibri;
